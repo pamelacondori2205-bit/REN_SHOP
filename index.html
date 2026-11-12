@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REN_SHOP | Inicio</title>
+    <link rel="stylesheet" href="j.css">
+    <script src="formulario.js" defer></script>
+</head>
+<body>
+
+<header class="encabezado">
+    <div class="logo">♡ REN_SHOP</div>
+
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <div class="desplegable">
+            <a href="#categorias" class="boton-menu">Productos ▾</a>
+            <div class="submenu">
+                <a href="maquillaje.html">Maquillaje</a>
+                <a href="juguetes.html">Juguetes</a>
+                <a href="ropa.html">Ropa</a>
+            </div>
+        </div>
+        <a href="#formulario">Formulario</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section class="portada" id="inicio">
+    <div class="texto-portada">
+        <span class="etiqueta">✿ TU ESPACIO FAVORITO ✿</span>
+        <h1>Pequeños detalles,<br>
+            <span>grandes momentos.</span>
+        </h1>
+        <p>Encuentra ropa, maquillaje y juguetes
+        en nuestra tienda REN_SHOP.</p>
+        <a href="#categorias" class="boton-principal">
+            Explorar tienda ♡
+        </a>
+    </div>
+
+    <div class="imagen-portada">
+        <img src="LG.jpg"
+             alt="Moda femenina">
+        <div class="nota-flotante">♡ Cosas bonitas para ti ♡</div>
+    </div>
+</section>
+
+<!-- FORMULARIO -->
+<section class="formulario-seccion" id="formulario">
+    <div class="titulo-seccion">
+        <span>BIENVENIDA A REN_SHOP</span>
+        <h2>Regístrate con nosotros</h2>
+        <p>Completa tus datos para continuar.</p>
+    </div>
+
+    <form id="miFormulario">
+        <label>Nombre completo:</label>
+        <input type="text" id="nombre" required
+               placeholder="Escribe tu nombre">
+
+        <label>Correo electrónico:</label>
+        <input type="email" id="correo" required
+               placeholder="ejemplo@gmail.com">
+
+        <label>Número de celular:</label>
+        <input type="tel" id="celular" required
+               placeholder="Tu número de celular">
+
+        <button type="submit" class="boton-principal">
+            Enviar datos
+        </button>
+
+        <p id="mensajeFormulario" class="mensaje"></p>
+    </form>
+</section>
+
+<!-- CATEGORIAS -->
+<section class="categorias" id="categorias">
+    <div class="titulo-seccion">
+        <span>DESCUBRE TU ESTILO</span>
+        <h2>Explora nuestras categorías</h2>
+        <p>Encuentra algo especial para ti.</p>
+    </div>
+
+    <div class="lista-categorias">
+        <a href="ropa.html" class="categoria rosa">
+            <span>♡</span>
+            <h3>Ropa</h3>
+            <p>Tu estilo, tus reglas.</p>
+        </a>
+
+        <a href="maquillaje.html" class="categoria lila">
+            <span>✿</span>
+            <h3>Maquillaje</h3>
+            <p>Un toque de belleza.</p>
+        </a>
+
+        <a href="juguetes.html" class="categoria celeste">
+            <span>🎀</span>
+            <h3>Juguetes</h3>
+            <p>Diversión y alegría.</p>
+        </a>
+    </div>
+</section>
+
+<section class="banner">
+    <span>UN POQUITO DE AMOR PARA TI</span>
+    <h2>Tu próximo favorito<br>te está esperando ♡</h2>
+    <p>Descubre nuestra colección.</p>
+    <a href="ropa.html" class="boton-principal">Ver productos</a>
+</section>
+
+<footer id="contacto">
+    <div class="logo logo-footer">♡ REN_SHOP</div>
+    <p>Un mundo de cosas bonitas, creado para ti.</p>
+    <div class="enlaces-footer">
+        <a href="index.html">Inicio</a>
+        <a href="maquillaje.html">Maquillaje</a>
+        <a href="juguetes.html">Juguetes</a>
+        <a href="ropa.html">Ropa</a>
+    </div>
+    <p>Contacto: 70000000 | Bolivia</p>
+    <p class="copyright">© 2026 REN_SHOP · Hecho con amor ♡</p>
+</footer>
+
+</body>
+</html>
